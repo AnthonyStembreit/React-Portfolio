@@ -1,15 +1,33 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 import { Link } from "react-router-dom";
 
 export default function Header(){
     return(
         <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Anthony Stematz-Breitling</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">About</Nav.Link>
-          <Nav.Link href="#projects">Projects</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
+        <Link to="/"
+         className={
+            window.location.pathname === "/" || window.location.pathname === "/home"
+              ? "nav-link active"
+              : "nav-link"
+          }
+          >About</Link>
+        <Link to="/projects"
+         className={
+            window.location.pathname === "/" || window.location.pathname === "/home"
+              ? "nav-link active"
+              : "nav-link"
+          }
+          >Projects</Link>
+        <Link to="/contact"
+         className={
+            window.location.pathname === "/" || window.location.pathname === "/home"
+              ? "nav-link active"
+              : "nav-link"
+          }
+          >Contact</Link>
         </Nav>
       </Navbar>
     )
