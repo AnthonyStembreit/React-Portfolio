@@ -4,6 +4,7 @@ import Header from './components/header';
 import Projects from './pages/projects';
 import About from './pages/about';
 import Contact from './pages/contact';
+import PageFooter from './components/footer'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <PageFooter/>
     </div>
   );
 }
