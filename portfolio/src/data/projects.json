@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Cocktail_Coterie",
+        "image": "https://user-images.githubusercontent.com/64037800/94628717-55020100-0286-11eb-8cea-b62c7d4c2619.png",
+        "description": "A Pineapple Under the Sea",
+        "tech": ["CSS"],
+        "deployed": "https://cocktail-coterie.herokuapp.com/",
+        "github": "https://github.com/AuroraBrune/cocktail_coterie"
+      },
+      {
+        "id": 2,
+        "name": "Exploration Food",
+        "image": "https://user-images.githubusercontent.com/64044377/88989496-65efbf80-d2a1-11ea-8b3a-339f917facae.png",
+        "description": "A Pineapple Under the Sea",
+        "tech": ["jQuery"],
+        "deployed": "https://joepall.github.io/Exploration-Food/",
+        "github": "https://github.com/JoePall/Exploration-Food"
+      }
+]
