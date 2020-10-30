@@ -1,3 +1,8 @@
 #page-containter{
     height: 100%;
 }
+body{
+    background-image: url(https://cameronscookware.com/wp-content/uploads/2019/12/splatter-paint-wallpaper-inspirational-splatter-paint-wallpaper-c2b7e291a0-wallpapertag-this-month-of-splatter-paint-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}

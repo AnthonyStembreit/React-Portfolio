@@ -26,10 +26,12 @@ export default function Contact() {
     ])
     return (
         ContactState.map(contact => (
-            <ContactLink 
-            link={contact.link}
-            icon={contact.icon}
-            text={contact.text}/>
+            <container>
+                <ContactLink 
+                link={contact.link}
+                icon={contact.icon}
+                text={contact.text}/>
+            </container>
         ))
     )
 }
