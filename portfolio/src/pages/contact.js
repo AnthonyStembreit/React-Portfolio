@@ -1,27 +1,35 @@
-import React from 'react'
-import Form from 'react-bootstrap/Form'
-import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button'
+import React, {useState} from 'react'
+import ContactLink from '../components/contactLink'
 
 export default function Contact() {
+    const [ContactState, setContactState] = useState([
+        {
+            link: "mailto:stembreit@gmail.com",
+            icon: "fas fa-envelope",
+            text: "stembreit@gmail.com"
+        },
+        {
+            link: "https://github.com/AnthonyStembreit",
+            icon: "fab fa-github-square",
+            text: "Github"
+        },
+        {
+            link: "https://www.linkedin.com/in/anthony-stembreit",
+            icon: "fab fa-linkedin",
+            text: "linkedIn"
+        },
+        {
+            link: "",
+            icon: "fas fa-file-pdf",
+            text: "Resume"
+        }
+    ])
     return (
-        <Form>
-            <Form.Row>
-                <Col>
-                    <Form.Control placeholder="First name" />
-                </Col>
-                <Col>
-                    <Form.Control placeholder="Last name" />
-                </Col>
-            </Form.Row>
-            <Form.Row>
-                <Col>
-                    <Form.Control as="textarea" placeholder="Reason for Inquiry" rows={3} />
-                </Col>
-            </Form.Row>
-            <Button variant="primary" type="submit">
-                Submit
-            </Button>
-        </Form>
+        ContactState.map(contact => (
+            <ContactLink 
+            link={contact.link}
+            icon={contact.icon}
+            text={contact.text}/>
+        ))
     )
 }
