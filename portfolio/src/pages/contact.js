@@ -1,14 +1,11 @@
 import React, {useState} from 'react'
 import ContactLink from '../components/contactLink'
+import Resume from  '../files/Anthony Stematz-Breitling Resume (1).pdf'
 
 
-export default function Contact() {
+export default function Contact(Resume) {
     const [ContactState, setContactState] = useState([
-        {
-            link: "mailto:stembreit@gmail.com",
-            icon: "fas fa-envelope",
-            text: "stembreit@gmail.com"
-        },
+       
         {
             link: "https://github.com/AnthonyStembreit",
             icon: "fab fa-github-square",
@@ -20,9 +17,14 @@ export default function Contact() {
             text: "linkedIn"
         },
         {
-            link: "../files/Anthony Stematz-Breitling Resume (1).pdf",
+            link:"../files/Anthony Stematz-Breitling Resume (1).pdf",
             icon: "fas fa-file-pdf",
             text: "Resume"
+        },
+        {
+            link: "mailto:stembreit@gmail.com",
+            icon: "fas fa-envelope",
+            text: "stembreit@gmail.com"
         }
     ])
     return (

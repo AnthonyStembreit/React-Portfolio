@@ -1,0 +1,10 @@
+#portrait{
+    height: 600px;
+    width: 600px;
+}
+p{
+    background-color:rgba(153, 71, 207, 0.863) !important;
+    width: 600px;
+    color: white !important;
+    font-size: 28px;
+}

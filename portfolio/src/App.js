@@ -11,10 +11,11 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        
+        <div class="body">
         <Route exact path="/" component={About}/>
         <Route path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact}/>
+        </div>
   
       </Router>
       <PageFooter/>

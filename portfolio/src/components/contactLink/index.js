@@ -10,7 +10,7 @@ export default function ContactLink(props) {
                 <Row>
                     <Col></Col>
                     <Col><i class={props.icon}></i></Col>
-                    <Col></Col>
+
                     <Col>{props.text}</Col>
                     <Col></Col>
                 </Row>

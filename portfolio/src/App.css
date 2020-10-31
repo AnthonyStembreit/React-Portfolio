@@ -6,3 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
 }
+.body{
+    margin-left: 33%;
+    margin-right: 33%;
+}
