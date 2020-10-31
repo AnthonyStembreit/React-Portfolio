@@ -1,20 +1,94 @@
 [
-    {
-        "id": 1,
-        "name": "Cocktail_Coterie",
-        "image": "https://user-images.githubusercontent.com/64037800/94628717-55020100-0286-11eb-8cea-b62c7d4c2619.png",
-        "description": "A Pineapple Under the Sea",
-        "tech": ["CSS"],
-        "deployed": "https://cocktail-coterie.herokuapp.com/",
-        "github": "https://github.com/AuroraBrune/cocktail_coterie"
-      },
-      {
-        "id": 2,
-        "name": "Exploration Food",
-        "image": "https://user-images.githubusercontent.com/64044377/88989496-65efbf80-d2a1-11ea-8b3a-339f917facae.png",
-        "description": "A Pineapple Under the Sea",
-        "tech": ["jQuery"],
-        "deployed": "https://joepall.github.io/Exploration-Food/",
-        "github": "https://github.com/JoePall/Exploration-Food"
-      }
+  {
+    "id": 1,
+    "name": "Cocktail_Coterie",
+    "image": "https://user-images.githubusercontent.com/64037800/94628717-55020100-0286-11eb-8cea-b62c7d4c2619.png",
+    "description":"As a social butterfly stuck inside due to Covid, I want an easy way to host a virtual cocktail party, So that I can have fun with my friends and family while keeping everyone safe.",
+        "tech": [
+      "Node",
+      "Handlebars",
+      "Bootstrap",
+      "Bcrypt",
+      "Passport",
+      "Session",
+      "Axios",
+      "Sequelize",
+      "Express",
+      "jQuery"
+    ],
+    "deployed": "https://cocktail-coterie.herokuapp.com/",
+    "github": "https://github.com/AuroraBrune/cocktail_coterie"
+  },
+  {
+    "id": 2,
+    "name": "Exploration Food",
+    "image": "https://user-images.githubusercontent.com/64044377/88989496-65efbf80-d2a1-11ea-8b3a-339f917facae.png",
+    "description": "As a person with allergies or other food restrictions, that gets bored easily with the same recipes I want to have easy access to new and exciting recipes that adhere to my allergies and food preferences, So that I can enjoy new dishes without worrying about how I will need to modify the recipe.",
+    "tech": [
+      "jQuery",
+      "Bulma",
+      "API",
+      "Google-Fonts",
+      "Font-Awesome"
+    ],
+    "deployed": "https://joepall.github.io/Exploration-Food/",
+    "github": "https://github.com/JoePall/Exploration-Food"
+  },
+  {
+    "id": 3,
+    "name": "Weather Dashboard",
+    "image": "https://user-images.githubusercontent.com/64037800/89344486-93ef4e00-d66b-11ea-9da5-01f6f55f25c2.png",
+    "description": "User can search for a city and the website will present current and future weather data, as well as update search history.",
+    "tech": [
+      "API's",
+      "Bootstrap",
+      "Local-Storage",
+      "Moment-JS",
+      "jQuery"
+    ],
+    "deployed": "https://anthonystembreit.github.io/Weather-App/",
+    "github": "https://github.com/AnthonyStembreit/Weather-App"
+  },
+  {
+    "id": 4,
+    "name": "Budget Tracker",
+    "image": "https://user-images.githubusercontent.com/64037800/96352290-c8c64b00-1087-11eb-949e-7a5006eac37f.png",
+    "description": "AS AN avid traveller I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling",
+    "tech": [
+      "Mongo-DB",
+      "Mongoose-Router",
+      "Node",
+      "Express"
+    ],
+    "deployed": "https://stormy-dusk-27149.herokuapp.com/",
+    "github": "https://github.com/AnthonyStembreit/Budget-Tracker"
+  },
+  {
+    "id": 5,
+    "name": "Coding Quiz",
+    "image": "https://user-images.githubusercontent.com/64037800/89338264-f17e9d00-d661-11ea-96ff-0409b1bbb36b.png",
+    "description": "A short timed quiz. When a question is answered the user is shown a new question, and when answered incorrectly time is subtracted from the timer. The user can save their initials along with their score after the quiz.",
+    "tech": [
+      "javascript",
+      "HTML",
+      "CSS"
+    ],
+    "deployed": "https://anthonystembreit.github.io/Coding-Quiz/",
+    "github": "https://github.com/AnthonyStembreit/Coding-Quiz"
+  },
+  {
+    "id": 6,
+    "name": "Burgers App",
+    "image": "https://user-images.githubusercontent.com/64037800/93004706-42aa6800-f50f-11ea-8a94-559fea23980a.png",
+    "description": "Whenever a user submits a burger's name, your app will display the burger on the burgers ready section side of the page -- waiting to be eaten. Each burger in the waiting area also has a Ready to eat! button. When the user clicks it, the burger will move to the Burgers eaten section of the page.",
+    "tech": [
+      "jQuery",
+      "mySQL",
+      "Node",
+      "Handlebars",
+      "Express"
+    ],
+    "deployed": "https://pacific-wildwood-91419.herokuapp.com/",
+    "github": "https://github.com/AnthonyStembreit/burger"
+  }
 ]
