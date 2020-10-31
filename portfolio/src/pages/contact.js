@@ -20,7 +20,7 @@ export default function Contact() {
             text: "linkedIn"
         },
         {
-            link: "",
+            link: "../files/Anthony Stematz-Breitling Resume (1).pdf",
             icon: "fas fa-file-pdf",
             text: "Resume"
         }
