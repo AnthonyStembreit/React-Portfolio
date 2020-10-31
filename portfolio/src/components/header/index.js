@@ -2,10 +2,11 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { Link } from "react-router-dom";
+import './header.css'
 
 export default function Header(){
     return(
-        <Navbar bg="dark" variant="dark">
+        <Navbar >
         <Nav className="mr-auto">
         <Link to="/"
          className={

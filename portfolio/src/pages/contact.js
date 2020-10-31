@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import ContactLink from '../components/contactLink'
 
+
 export default function Contact() {
     const [ContactState, setContactState] = useState([
         {
@@ -26,12 +27,12 @@ export default function Contact() {
     ])
     return (
         ContactState.map(contact => (
-            <container>
+            
                 <ContactLink 
                 link={contact.link}
                 icon={contact.icon}
                 text={contact.text}/>
-            </container>
+           
         ))
     )
 }

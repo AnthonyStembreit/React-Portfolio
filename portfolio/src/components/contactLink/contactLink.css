@@ -1,6 +1,12 @@
 .contactLink{
 width: 400px;
-background-color:rgb(202, 195, 241) !important;
-color: grey !important;
+background-color:rgba(153, 71, 207, 0.863) !important;
 font-size: 22px;
+text-align:left;
+}
+.contactLink a{
+    color:white !important;
+}
+.contactLink i{
+    font-size: 33px;
 }

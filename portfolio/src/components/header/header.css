@@ -1,0 +1,11 @@
+.navbar{
+    background-color:rgba(153, 71, 207, 0.863) !important;
+    font-size:25px;
+}
+.navbar a {
+    color:white !important;
+}
+.navbar i{
+    margin-right: 20px;
+    font-size: 33px;
+}

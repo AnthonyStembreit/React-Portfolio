@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav"
 
 export default function PageFooter() {
     return (
-        <Navbar sticky="bottom" bg="dark" variant="dark">
+        <Navbar sticky="bottom">
             <Nav className="mr-auto">
                 <a target="_blank" href="https://github.com/AnthonyStembreit">
                     <i class="fab fa-github-square"></i>
