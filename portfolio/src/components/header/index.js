@@ -6,9 +6,9 @@ import './header.css'
 
 export default function Header(){
     return(
-        <Navbar >
+        <Navbar id="header" >
         <Nav className="mr-auto">
-        <Link to="/"
+        <Link to="/React-Portfolio/"
          className={
             window.location.pathname === "/" || window.location.pathname === "/home"
               ? "nav-link active"

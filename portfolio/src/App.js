@@ -8,18 +8,18 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+  
       <Router>
         <Header />
         <div class="body">
-        <Route exact path="/" component={About}/>
+        <Route exact path="/React-Portfolio/" component={About}/>
         <Route path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact}/>
         </div>
   
+        <PageFooter/>
       </Router>
-      <PageFooter/>
-    </div>
+
   );
 }
 

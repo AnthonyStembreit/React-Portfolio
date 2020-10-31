@@ -1,10 +1,11 @@
 import React from "react"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
+import './footer.css'
 
 export default function PageFooter() {
     return (
-        <Navbar sticky="bottom">
+        <Navbar sticky="bottom" id="footer">
             <Nav className="mr-auto">
                 <a target="_blank" href="https://github.com/AnthonyStembreit">
                     <i class="fab fa-github-square"></i>
