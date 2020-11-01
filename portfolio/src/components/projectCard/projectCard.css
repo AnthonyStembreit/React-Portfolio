@@ -1,6 +1,6 @@
 
 .card{
-        width: 365px;
+        width: 600px;
         margin: 20px;
         background-color:rgba(150, 78, 233, 0.548) !important;
         border-radius: 10px !important;
@@ -24,4 +24,7 @@
 }
 .card-footer{
         background-color:rgba(153, 71, 207, 0.863) !important;
+}
+.card-footer button{
+        font-size: 28px;
 }
